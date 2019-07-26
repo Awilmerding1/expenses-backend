@@ -11,6 +11,8 @@ gem 'sqlite3'
 gem 'puma', '~> 3.11'
 
 gem 'rack-cors'
+
+gem 'active_model_serializers'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -23,7 +25,7 @@ gem 'rack-cors'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'pry'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
